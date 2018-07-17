@@ -1,7 +1,7 @@
 import java.util.*;
 public class Ack {
 
-int value = 0;
+public int value = 0;
 int called = 0;
 int hits = 0;
 int array[][] = new int[10000][10000];
@@ -63,8 +63,10 @@ private boolean isNandMintheArray(int m, int n){
 }
 
 public static void main(String[] args){
-        Ack test = new Ack(3, 2);
-        System.out.println("");
-        System.out.println("test's function is " + test);
+        // Ack test = new Ack(3, 2);
+        StudentExampleActionListener graph = new StudentExampleActionListener();
+
+        // System.out.println("");
+        // System.out.println("test's function is " + test);
 }
 }
